@@ -20,6 +20,7 @@ After an app has been created , we need a unique token to access your dropbox ac
 
 The main use of this access token is to verify if all the performed operations functionally were actually working from the backend. Test case only verifies if any new files or folders added were actually added by verifying it using DBXV2 API's. Apart from this , test case doesn't retrieve or manipulate the existing data in your dropbox account.
 
+Parameters :
 parameters must be given from data.properties file Kindly add it in the value section as follows browser = chrome or Firefox or InternetExplorer----- 
 url = https://www.dropbox.com/--- 
 accesstocken= --- filename=image1.jpg -- 
