@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+   <test name="HomePageUploadFileTestTest">
+    <classes>
+      <class name="com.dropbox.test.HomePageUploadFileTest"/>
+    </classes>
+  </test>
+  
+  <test name="LoginLogoutTest">
+     <classes>
+      <class name="com.dropbox.test.LoginLogoutTest"/>
+     </classes>
+  </test>
+       
+  <test name="CreateNewFolderTest">
+    <classes>
+      <class name="com.dropbox.test.CreateNewFolderTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

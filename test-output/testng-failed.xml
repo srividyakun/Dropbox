@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="HomePageUploadFileTestTest(failed)">
+    <classes>
+      <class name="com.dropbox.test.HomePageUploadFileTest">
+        <methods>
+          <include name="BrowserNavigation"/>
+          <include name="dropboxLogin"/>
+          <include name="dropboxHome"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dropbox.test.HomePageUploadFileTest -->
+    </classes>
+  </test> <!-- HomePageUploadFileTestTest(failed) -->
+  <test thread-count="5" name="LoginLogoutTest(failed)">
+    <classes>
+      <class name="com.dropbox.test.LoginLogoutTest">
+        <methods>
+          <include name="BrowserNavigation"/>
+          <include name="userLogout"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="dropboxLogin"/>
+        </methods>
+      </class> <!-- com.dropbox.test.LoginLogoutTest -->
+    </classes>
+  </test> <!-- LoginLogoutTest(failed) -->
+  <test thread-count="5" name="CreateNewFolderTest(failed)">
+    <classes>
+      <class name="com.dropbox.test.CreateNewFolderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="dropboxLogin"/>
+          <include name="createNewFolder"/>
+          <include name="BrowserNavigation"/>
+        </methods>
+      </class> <!-- com.dropbox.test.CreateNewFolderTest -->
+    </classes>
+  </test> <!-- CreateNewFolderTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

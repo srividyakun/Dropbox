@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.dropbox.test.CreateNewFolderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="dropboxLogin"/>
+          <include name="createNewFolder"/>
+          <include name="BrowserNavigation"/>
+        </methods>
+      </class> <!-- com.dropbox.test.CreateNewFolderTest -->
+      <class name="com.dropbox.test.LoginLogoutTest">
+        <methods>
+          <include name="BrowserNavigation"/>
+          <include name="tearDown"/>
+          <include name="dropboxLogin"/>
+        </methods>
+      </class> <!-- com.dropbox.test.LoginLogoutTest -->
+      <class name="com.dropbox.test.HomePageUploadFileTest">
+        <methods>
+          <include name="BrowserNavigation"/>
+          <include name="dropboxLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dropbox.test.HomePageUploadFileTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,7 @@
+02:00:41.586 [main] INFO  com.dropbox.base.Base - User logged in successfully
+02:00:49.631 [main] INFO  com.dropbox.base.Base - User logged out successfully
+02:00:51.192 [main] INFO  com.dropbox.base.Base - User logged in successfully
+02:00:54.014 [main] INFO  com.dropbox.base.Base - closing webdriver
+02:00:56.325 [main] INFO  com.dropbox.base.Base - webdriver closed.
+02:00:56.360 [main] INFO  com.dropbox.base.Base - closing webdriver
+02:00:58.671 [main] INFO  com.dropbox.base.Base - webdriver closed.
